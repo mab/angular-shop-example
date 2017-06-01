@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductOverviewComponent } from './product-overview/product-overview.component';
+import { ProductListItemComponent } from './product-list-item/product-list-item.component';
 
 @NgModule({
   imports: [
@@ -10,7 +11,8 @@ import { ProductOverviewComponent } from './product-overview/product-overview.co
     ProductOverviewComponent,
   ],
   declarations: [
-    ProductOverviewComponent
+    ProductOverviewComponent,
+    ProductListItemComponent,
   ]
 })
 export class ProductModule { }

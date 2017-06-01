@@ -2,6 +2,6 @@
 
 <ul>
   <li *ngFor="let product of products">
-    {{product.name}}
+    <app-product-list-item [product]="product"></app-product-list-item>
   </li>
 </ul>
