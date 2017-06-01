@@ -1,3 +1,9 @@
+import { ID, URI } from '../common.types';
+
 export interface Product {
-    name: string;
+  id: ID;
+  name: string;
+  description: string;
+  image: URI;
+  price: number;
 };

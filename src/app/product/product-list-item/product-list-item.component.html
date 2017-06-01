@@ -1,1 +1,5 @@
-{{product?.name}}
+<div>
+  <div><h2>{{product?.name}}</h2></div>
+  <div *ngIf="product?.image">{{product?.description}}</div>
+  <img *ngIf="product?.image" src="{{product?.image}}" />
+</div>
